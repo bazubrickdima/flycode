@@ -1,0 +1,92 @@
+/*@media only screen and (min-width: 1051px) {
+    .centra{
+        visibility: hidden;
+    }
+    .centra1{
+        visibility: visible;
+    }
+}*/
+@media only screen and (min-width: 1101px) {
+    .devProcesBlock{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .centra{
+        display: none;
+    }
+    .centra1{
+        display: none;
+    }
+}
+.devProcessBlock{
+    margin-top: 25px;
+}
+
+.devImg{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.devImg img{
+    max-width: 100%;
+}
+.devProcess{
+    font-family: ClinicaPro-Regular;
+    color: #414141;
+    padding: 70px;
+    min-height: 320px;
+    background-color: #EEEEEE;
+}
+.devBlock{
+    width: 20%;
+    float: left;
+}
+
+.headerDev{
+    color: #414141;
+}
+.centra{
+    width: 830px;
+    margin: 100px auto 100px auto;
+}
+.centra1{
+        position: relative;
+    width: 1000px;
+    margin: auto;
+}
+
+
+.grayLine{
+    margin-top: 47px;
+    width: 170px;
+    height: 5px;
+    background-color: #BDBDBD;
+    float: left;
+}
+#dev, #dev1, #dev2, #dev3, #dev4{
+    margin-top: 35px;
+}
+#line1, #line2,#line3,#line4{
+	 background-color: #12A3D4; 
+   
+    height: 5px;
+    width: 1px;
+    transition: width 1s cubic-bezier(0, 0, 1, 1);
+}
+#line1.movingLine, #line2.movingLine, #line3.movingLine, #line4.movingLine {
+    width: 100%;
+}
+#dev, #dev1, #dev2, #dev3, #dev4{
+ padding-top: 1px;
+    background-color: #FFFFFF;
+    border: 4px solid #BDBDBD;
+    height: 30px;
+    width: 30px;
+    /* background-color: #BDBDBD; */
+    /*    background-image: url("vk.png");*/
+    float: left;
+    transition: border 1s;
+}
+#dev.transformBlock, #dev1.transformBlock, #dev2.transformBlock, #dev3.transformBlock, #dev4.transformBlock    {
+    border: 4px solid #12A3D4;
+}
