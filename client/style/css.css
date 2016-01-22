@@ -161,6 +161,15 @@ nav ul a:hover {
     overflow: hidden;
     padding-bottom: 70px;
 }
+.priceRed{
+  text-decoration:line-through;
+  color: #FF1744;
+
+}
+.priceGreen{
+  color: #00C853;
+
+}
 .card-panel{
   margin: 0.75rem 0;
   cursor: pointer;
@@ -173,7 +182,11 @@ nav ul a:hover {
 }
 .servHeader{
   font-size: 1.625rem;
-  margin: 0 0 10px 0;
+  margin: 0 0 0 0;
+}
+.servUnderHeader{
+  font-size: 1.4rem;
+    margin: 0 0 5px 0;
 }
 .valign-wrapper h5{
     margin: 0 0 15px 0;
