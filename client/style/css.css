@@ -217,7 +217,7 @@ body, html {
 }
 .textLogo{
     margin-top: 10px;
-    margin-left: 70px;
+    margin-left: 60px;
 }
 nav ul a:hover {
     color:#12A3D4;
@@ -311,6 +311,7 @@ nav ul a:hover {
     max-width: 100%;
     z-index: 0;
     overflow: hidden;
+    padding-bottom: 70px;
 }
 .card-panel{
   margin: 0.75rem 0;
@@ -472,9 +473,12 @@ nav ul a:hover {
 /* ===================================contact=============================== */
 /* .contact{
   padding-bottom: 40px;
-} */
+}
+
+ */
+.
 .contactBlock{
-    margin-top: 20px;
+    margin-top: 20px 0 40px 0;
 }
 .contactHead{
     color: #2196F3;
