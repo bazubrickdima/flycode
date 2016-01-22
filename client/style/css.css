@@ -319,15 +319,19 @@ nav ul a:hover {
 
 }
 
-.card-panel span {
-  font-size: 1.125em;
+.servText{
+  font-size: 1.125rem;
 
+}
+.servHeader{
+  font-size: 1.625rem;
+  margin: 0 0 10px 0;
 }
 .valign-wrapper h5{
     margin: 0 0 15px 0;
 }
 .valign-wrapper{
-  height: 120px;
+  min-height: 120px;
   overflow: hidden;
 }
 .card-panel img {
@@ -505,9 +509,6 @@ nav ul a:hover {
 }
 /* ===================================contact=============================== */
 /* ===================================footer=============================== */
-.footerBottom{
-    background-color: red;
-}
 .social img{
     margin-left: 5px;
 }
