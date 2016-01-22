@@ -13,7 +13,7 @@ Template.main.onRendered(function () {
     );
       
 });
-Template.contact.events({ // плавна прокрутка до якоря
+Template.contact.events({
     'submit form':function(e) {
         e.preventDefault();
         var name = $(e.target).find('#name').val();

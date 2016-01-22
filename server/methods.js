@@ -68,7 +68,6 @@ Meteor.methods({
 var second = 1000 * 3600;
 Meteor.setInterval(function () {
     var now = new Date();
-/*    now.setHours(now.getHours() + 2);*/
     var options = {
       year: 'numeric',
       month: 'long',

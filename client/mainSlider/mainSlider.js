@@ -3,7 +3,6 @@ $( document ).ready(function() {
         function() {
             var imgSrc = $(this).attr('src');
             var newImgSrc = 'H' + imgSrc;
-            console.log(newImgSrc);
             $( this ).attr('src', newImgSrc);
         },function() {
             var imgSrc = $(this).attr('src');

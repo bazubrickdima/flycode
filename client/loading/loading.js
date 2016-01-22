@@ -5,9 +5,9 @@ var spinner = '<div class="sk-fading-circle"><div class="sk-circle1 sk-circle"><
     this.loading = window.pleaseWait({
       logo: 'air.png',
       backgroundColor: '#12A3D4',
-      loadingHtml: '<p class="loading-message">flycode</p>' + spinner /*+ '<div class="sk-spinner sk-spinner-rotating-plane"></div>'*/
+      loadingHtml: '<p class="loading-message">flycode</p>' + spinner 
     });
-    Session.set('loadingSplash', true); // just show loading splash once
+    Session.set('loadingSplash', true);
   }
 };
 

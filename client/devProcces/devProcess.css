@@ -1,11 +1,3 @@
-/*@media only screen and (min-width: 1051px) {
-    .centra{
-        visibility: hidden;
-    }
-    .centra1{
-        visibility: visible;
-    }
-}*/
 @media only screen and (min-width: 1101px) {
     .devProcesBlock{
         display: none;
@@ -82,8 +74,6 @@
     border: 4px solid #BDBDBD;
     height: 30px;
     width: 30px;
-    /* background-color: #BDBDBD; */
-    /*    background-image: url("vk.png");*/
     float: left;
     transition: border 1s;
 }

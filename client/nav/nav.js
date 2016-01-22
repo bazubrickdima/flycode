@@ -1,12 +1,3 @@
-/*$( document ).ready(function(){
-  $(".button-collapse").sideNav();
-});
-*/
-Template.nav.onRendered(function () {
-    Session.set('en', true);
-    Session.set('ru', false);
-});
-
 Template.nav.events({
 	'click .brand-logo':function(e){
 		e.preventDefault();

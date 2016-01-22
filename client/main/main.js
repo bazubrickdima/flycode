@@ -1,4 +1,4 @@
 Template.main.onRendered(function () {
-   $('.parallax').parallax();
-      
+    Session.set('en', true);
+    Session.set('ru', false);
 });
