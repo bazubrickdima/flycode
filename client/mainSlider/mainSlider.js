@@ -1,5 +1,5 @@
-$( document ).ready(function() {
-    $( '.MainArrowBlock img' ).hover(
+Template.mainSlider.onRendered(function () {
+  $( '.MainArrowBlock img' ).hover(
         function() {
             var imgSrc = $(this).attr('src');
             var newImgSrc = 'H' + imgSrc;
@@ -9,7 +9,7 @@ $( document ).ready(function() {
             var newImgSrc = imgSrc.slice(1);
             $( this ).attr('src', newImgSrc);
         }
-    );
+    );     
 });
 Template.mainSlider.events({
     'click .MainArrowBlock img': function (e) {

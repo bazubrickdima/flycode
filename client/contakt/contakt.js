@@ -22,8 +22,14 @@ Template.contact.events({
         if(email && name && text){
             Meteor.call('sendEmail',email, name, text, function (err, res) {
                     if(!err){
-                        alert('Ваше повідомлення доставлено.Ми з вами звяжемося як зможемо');
-                        $("body,html").animate({scrollTop: 1 }, 800);
+                        if(Session.get('en')){
+                            alert('eng');
+                            $("body,html").animate({scrollTop: 1 }, 800);
+                        }else{
+                            alert('Ваше повідомлення доставлено.Ми з вами звяжемося як зможемо');
+                            $("body,html").animate({scrollTop: 1 }, 800);
+                        }
+                        
                     }else{
                         console.log(err);
                     }

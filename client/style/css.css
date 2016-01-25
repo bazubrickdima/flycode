@@ -18,6 +18,9 @@ src: local("FiraSansOT-Light"), url("fonts/FiraSansOT-Light.otf");
 }
 /* =============================fonts============================== */
 /* =============================class============================== */
+ a {
+    outline: none; /* Убираем границу вокруг ссылок  */
+   }
 .blueText{
     color: #12A3D4;
 }
@@ -93,7 +96,7 @@ nav ul a:hover {
     width:100%;
     min-height:100%;
     height: auto;
-    background:url(m1.jpg) center no-repeat;
+    background:url(main12.jpg) center no-repeat;
     background-size:cover;
     padding-top: 120px;
 }

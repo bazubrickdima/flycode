@@ -87,7 +87,21 @@ Meteor.setInterval(function () {
 }, second);
 
 
-Meteor.publish('visitors',function () {
-  return Visitors.find();
+Meteor.publish('preload',function () {
+  return Preload.find();
   
+});
+
+
+
+
+Meteor.startup(function() {
+  if(!Preload.findOne()){
+    for(var i = 1; i < 10; i++){
+        Preload.insert({
+          load: 1
+        });
+    }
+  }                                                                                                                                                                                                                                                                                   
+
 });
